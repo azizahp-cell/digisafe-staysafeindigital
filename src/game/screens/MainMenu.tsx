@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { audio } from "../audio";
-import titleBg from "@/assets/.png";
+import titleBg from "@/assets/bg_main.jpg";
 import { CASES } from "../data/cases";
 import { spriteSrc, type CharId } from "../sprites";
 import { useGame } from "../state";
