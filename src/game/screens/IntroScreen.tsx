@@ -25,7 +25,7 @@ export function IntroScreen() {
 
       <div className="mt-6 grid flex-1 grid-cols-[1.25fr_repeat(4,1fr)] gap-4">
         <div className="panel-game flex flex-col items-center p-4">
-          <div className="tag-name font-pixel px-4 py-1 text-lg">Kamu · Mahasiswa</div>
+          <div className="tag-name font-pixel px-4 py-1 text-lg">Kamu · Siswa</div>
           <img src={portraitSrc("player")} alt="Karakter pemain" className="pixelated mt-3 h-52 w-auto animate-bob" />
           <p className="mt-2 text-center text-sm text-sky">Asisten paruh waktu di Cyber Center. Tugasmu: membantu warga menghadapi masalah keamanan digital.</p>
           <label className="font-pixel mt-auto w-full pt-3 text-sm text-gold" htmlFor="pname">Nama pemain</label>
