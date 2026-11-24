@@ -43,7 +43,7 @@ export function SplashScreen() {
       <p className={`font-pixel mt-6 text-xl text-foreground ${ready ? "animate-blink" : "opacity-60"}`}>
         {ready ? "▶ Klik atau tekan tombol apa saja untuk mulai" : "Memuat DigiCity..."}
       </p>
-      <p className="absolute bottom-5 text-sm text-sky/70">Media Pembelajaran Keamanan Siber · Untuk Siswa SMP &amp; SMA</p>
+      <p className="absolute bottom-5 text-sm text-sky/70">Media Pembelajaran Keamanan Siber · Untuk Siswa SMP Kelas IX</p>
     </div>
   );
 }

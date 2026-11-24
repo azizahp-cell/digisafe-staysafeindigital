@@ -63,7 +63,7 @@ export function MainMenu() {
         <Modal className="w-[40rem]" onClose={() => setAbout(false)}>
           <h2 className="font-pixel mb-3 text-3xl text-gold">Tentang DIGISAFE</h2>
           <p className="leading-relaxed">
-            DIGISAFE adalah game edukasi keamanan siber untuk siswa SMP dan SMA. Kamu berperan sebagai mahasiswa yang bekerja paruh waktu di Cyber Center DigiCity: belajar materi, memeriksa bukti digital, mengambil keputusan, dan menulis laporan investigasi.
+            DIGISAFE adalah game edukasi keamanan siber untuk siswa SMP Kelas IX. Kamu berperan sebagai Siswa yang bekerja paruh waktu di Cyber Center DigiCity: belajar materi, memeriksa bukti digital, mengambil keputusan, dan menulis laporan investigasi.
           </p>
           <ul className="mt-4 space-y-1 text-sky">
             <li>⌨ WASD / Panah — berjalan · Shift — lari</li>

@@ -82,7 +82,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "DIGISAFE — Digital Investigation & Cyber Safety Adventure" },
-      { name: "description", content: "Game RPG edukasi keamanan siber untuk siswa SMP dan SMA." },
+      { name: "description", content: "Game RPG edukasi keamanan siber untuk siswa SMP Kelas IX." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
