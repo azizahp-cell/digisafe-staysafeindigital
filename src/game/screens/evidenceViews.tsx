@@ -18,9 +18,9 @@ export function Clue({ id, children, className, block }: { id: string; children:
       onKeyDown={(e) => { if ((e.key === "Enter" || e.key === " ") && !isFound) onFind(id); }}
       className={cn(
         "relative cursor-zoom-in rounded-sm outline-[0.18rem] outline-offset-2 transition-[outline-color,background-color]",
-        block ? "block" : "inline",
+        block ? "block w-full box-border" : "inline",
         isFound
-          ? "cursor-default bg-success-soft outline outline-success"
+          ? "cursor-default box-border bg-success-soft outline outline-success"
           : hint
             ? "animate-pulse-ring outline-dashed outline-gold"
             : "outline-transparent hover:bg-gold/25 hover:outline-dashed hover:outline-gold-2",
@@ -29,7 +29,7 @@ export function Clue({ id, children, className, block }: { id: string; children:
     >
       {children}
       {isFound && (
-        <span className="font-pixel absolute -top-3 -right-3 z-10 flex h-6 w-6 items-center justify-center rounded-full border-[0.12rem] border-ink bg-success text-xs text-foreground">
+        <span className="font-pixel absolute -top-3 -right-0 z-10 flex h-6 w-6 items-center justify-center rounded-full border-[0.12rem] border-ink bg-success text-xs text-foreground">
           {n}
         </span>
       )}
