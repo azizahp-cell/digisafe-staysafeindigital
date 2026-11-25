@@ -121,10 +121,12 @@ html {
     border-color: var(--color-border);
   }
   html,
-  body {
-    height: 100%;
-    overflow: hidden;
-  }
+  html,
+body {
+  min-height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
   body {
     background: var(--ink);
     color: var(--color-foreground);
