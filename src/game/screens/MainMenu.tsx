@@ -54,7 +54,12 @@ export function MainMenu() {
       <div className="absolute right-[5%] bottom-[6%] flex items-end gap-4">
         {CAST.map((c, i) => (
           <div key={c} className="flex flex-col items-center" style={{ animation: `bob 1.8s ease-in-out ${i * 0.2}s infinite` }}>
-            <img src={spriteSrc(c, "down")} alt={c} className="pixelated h-[7.5rem] w-auto drop-shadow-[0_0.3rem_0_oklch(0.18_0.05_268/0.5)]" />
+            <img
+  src={spriteSrc(c, "down")}
+  alt={c}
+  className={`pixelated w-auto ${
+     c === "sasa" ? "h-[5.5rem]" : "h-[7.5rem]"
+      } drop-shadow-[0_0.3rem_0_oklch(0.18_0.05_268/0.5)]`} />
           </div>
         ))}
       </div>
@@ -69,7 +74,7 @@ export function MainMenu() {
             <li>⌨ WASD / Panah — berjalan · Shift — lari</li>
             <li>⌨ E — bicara / interaksi · Esc / M — menu</li>
           </ul>
-          <p className="mt-4 text-sm text-sky/80">Semua nama, akun, alamat email, domain, dan bukti dalam game ini fiktif. Game tidak pernah meminta password atau OTP asli.</p>
+          <p className="mt-4 text-sm text-sky/80">Semua nama, akun, alamat email, domain, dan bukti dalam game ini fiktif.</p>
           <div className="mt-5 flex justify-end"><GameButton onClick={() => setAbout(false)}>Tutup</GameButton></div>
         </Modal>
       )}
