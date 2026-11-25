@@ -124,6 +124,7 @@ html {
   body {
     height: 100%;
     overflow: hidden;
+    overflow-y: auto;
   }
   body {
     background: var(--ink);
@@ -147,17 +148,15 @@ html {
 }
 
 /* Navy game panel with cyan rim, like an RPG window. */
-@layer utilities {
-  .panel-game {
-    background: linear-gradient(180deg, var(--navy-2), var(--navy));
-    border: 0.2rem solid var(--ink);
-    box-shadow:
-      inset 0 0 0 0.15rem var(--cyan),
-      inset 0 0 0 0.3rem var(--navy),
-      var(--shadow-block-lg);
-    border-radius: 0.6rem;
-    color: var(--foreground);
-  }
+@utility panel-game {
+  background: linear-gradient(180deg, var(--navy-2), var(--navy));
+  border: 0.2rem solid var(--ink);
+  box-shadow:
+    inset 0 0 0 0.15rem var(--cyan),
+    inset 0 0 0 0.3rem var(--navy),
+    var(--shadow-block-lg);
+  border-radius: 0.6rem;
+  color: var(--foreground);
 }
 
 /* Light-blue information panel. */
