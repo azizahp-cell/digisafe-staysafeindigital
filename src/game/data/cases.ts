@@ -158,13 +158,13 @@ export const CASES: CaseData[] = [
     victim: "Dito",
     location: "Gedung Keamanan Akun",
     chronology: [
-      "Dito tidak bisa masuk ke akun media sosial DigiGram miliknya.",
+      "Dito tidak bisa masuk ke akun media sosial Instagram miliknya.",
       "Email pemulihan akunnya ternyata sudah berubah.",
       "Ada aktivitas login yang tidak ia kenali.",
       "Dito memakai password yang sama di beberapa layanan dan pernah membagikan kode verifikasi kepada seseorang yang mengaku petugas bantuan.",
     ],
     intro: [
-      "Halo... aku Dito. Akun DigiGram-ku tidak bisa dibuka sejak tadi pagi.",
+      "Halo... aku Dito. Akun Instagram-ku tidak bisa dibuka sejak tadi pagi.",
       "Password-ku ditolak, dan email pemulihannya bukan punyaku lagi!",
       "Kemarin malam ada \"petugas bantuan\" yang minta kode verifikasi... apa itu ada hubungannya?",
       "Tolong periksa catatan akunku, ya.",
@@ -173,7 +173,7 @@ export const CASES: CaseData[] = [
       {
         id: "loginlog",
         title: "Riwayat Login",
-        subtitle: "Aktivitas login akun DigiGram Dito",
+        subtitle: "Aktivitas login akun Instagram Dito",
         icon: "🧾",
         clues: [
           { id: "night", label: "Login dini hari", finding: "Ada login berhasil pukul 02:14 dari perangkat dan lokasi yang tidak pernah dipakai Dito." },
@@ -198,7 +198,7 @@ export const CASES: CaseData[] = [
         subtitle: "Catatan OTP dan penggunaan password",
         icon: "🛡️",
         clues: [
-          { id: "fake", label: "Petugas palsu", finding: "Akun \"DigiGram Support\" di chat bukan akun resmi. Petugas resmi tidak pernah meminta kode OTP." },
+          { id: "fake", label: "Petugas palsu", finding: "Akun \"Instagram Support\" di chat bukan akun resmi. Petugas resmi tidak pernah meminta kode OTP." },
           { id: "otp", label: "OTP dibagikan", finding: "Dito membagikan kode OTP. Kode inilah yang dipakai pelaku untuk menembus verifikasi." },
           { id: "reuse", label: "Password berulang", finding: "Password yang sama dipakai di 3 layanan, dan salah satunya pernah mengalami kebocoran data." },
         ],
@@ -239,7 +239,7 @@ export const CASES: CaseData[] = [
       ],
     },
     debrief: [
-      "Hebat! Dito berhasil memulihkan akunnya lewat pusat bantuan resmi DigiGram.",
+      "Hebat! Dito berhasil memulihkan akunnya lewat pusat bantuan resmi Instagram.",
       "Pelajarannya: OTP itu rahasia, dan setiap akun butuh password yang berbeda.",
       "Satu kasus lagi. Sasa di Device Security Lab bilang ponselnya mendadak aneh. Ayo bantu dia!",
     ],

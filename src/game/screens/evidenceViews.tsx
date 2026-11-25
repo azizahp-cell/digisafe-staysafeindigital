@@ -158,7 +158,7 @@ function PhishingLog() {
 // ---------- CASE 02 ----------
 function TakeoverLog() {
   return (
-    <Window title="DigiGram — Aktivitas Login" className="mx-auto max-w-[46rem]">
+    <Window title="Instagram — Aktivitas Login" className="mx-auto max-w-[46rem]">
       <Table
         head={["Waktu", "Perangkat", "Lokasi", "Status"]}
         rows={[
@@ -174,7 +174,7 @@ function TakeoverLog() {
 
 function TakeoverSettings() {
   return (
-    <Window title="DigiGram — Pengaturan Akun" className="mx-auto max-w-[40rem]">
+    <Window title="Instagram — Pengaturan Akun" className="mx-auto max-w-[40rem]">
       <div className="divide-y divide-border">
         <div className="flex justify-between px-5 py-3"><span className="text-muted-foreground">Nama pengguna</span><b>@dito.foto</b></div>
         <Clue id="recovery" block className="px-5 py-3">
@@ -199,11 +199,11 @@ function TakeoverSecurity() {
     <div className="grid grid-cols-[1fr_1.1fr] gap-5">
       <Phone title="Pesan">
         <Clue id="fake" block className="mb-2 p-1">
-          <div className="flex items-center gap-2 border-b border-border pb-2"><span className="flex h-8 w-8 items-center justify-center rounded-full bg-sky">🛠</span><div><b>DigiGram Support</b><div className="text-xs text-muted-foreground">akun pribadi · bukan terverifikasi</div></div></div>
+          <div className="flex items-center gap-2 border-b border-border pb-2"><span className="flex h-8 w-8 items-center justify-center rounded-full bg-sky">🛠</span><div><b>Instagram Support</b><div className="text-xs text-muted-foreground">akun pribadi · bukan terverifikasi</div></div></div>
         </Clue>
         <div className="space-y-2 text-sm">
           <div className="max-w-[85%] rounded-lg bg-sky px-3 py-2">Halo! Akun kamu akan dinonaktifkan karena melanggar aturan. Kirimkan kode 6 digit yang baru masuk ke HP kamu ya, supaya kami bisa memverifikasi.</div>
-          <div className="rounded-lg bg-muted px-3 py-2 text-xs">SMS DigiGram: Kode verifikasi kamu 482913. JANGAN berikan kode ini kepada siapa pun.</div>
+          <div className="rounded-lg bg-muted px-3 py-2 text-xs">SMS Instagram: Kode verifikasi kamu 482913. JANGAN berikan kode ini kepada siapa pun.</div>
           <Clue id="otp" block className="ml-auto max-w-[60%] rounded-lg bg-navy px-3 py-2 text-foreground">482913 👍</Clue>
         </div>
       </Phone>
